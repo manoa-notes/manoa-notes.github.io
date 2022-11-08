@@ -1,5 +1,3 @@
-# Manoa Notes
-
 ## Table of contents
 
 * [Overview](#overview)

@@ -1,4 +1,5 @@
 #Build settings
+title: Manoa Notes
 markdown: kramdown
 theme: minima
 #remote_theme: ?
