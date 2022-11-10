@@ -89,7 +89,7 @@ The following sections document the development history of BowFolios.
 
 ### Milestone 1: Mockup development
 
-The goal of Milestone 1 is to create a set of HTML pages providing a mockup of the pages in the system. The end goal is to have the following pages:
+The goal of Milestone 1 is to create a set of *React* pages providing a mockup of the pages in the system. The end goal is to have the following pages:
 
 ### Landing Page
 ![](images/landing.png)
