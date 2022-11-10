@@ -1,4 +1,4 @@
-# Manoa Notes
+# Rainbow Notes
 
 ## Table of contents
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The goal of Manoa Notes is to provide students a place where they can meet or discuss with others who previously took a course. Those who have completed a course can also post their notes for other students to see. In addition, they will be able to answer questions on the forum, which will form a community where students can be helped in the future as well. It will eventually incorporate various technologies such as:
+The goal of Rainbow Notes is to provide students a place where they can meet or discuss with others who previously took a course. Those who have completed a course can also post their notes for other students to see. In addition, they will be able to answer questions on the forum, which will form a community where students can be helped in the future as well. It will eventually incorporate various technologies such as:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -26,7 +26,7 @@ It will also provide code that implements design concepts including but not limi
 
 ## User Guide
 
-This section provides a walkthrough of the planned Manoa Notes user interface and its capabilities. It will be heavily based on the [Bowfolios template](https://bowfolios.github.io) which was provided in the ICS 314 Software Engineering class. Some pages that we will most likely be using include:
+This section provides a walkthrough of the planned Rainbow Notes user interface and its capabilities. It will be heavily based on the [Bowfolios template](https://bowfolios.github.io) which was provided in the ICS 314 Software Engineering class. Some pages that we will most likely be using include:
 
 ### Landing Page
 
@@ -73,5 +73,39 @@ Once you are logged in, you can define new projects with the Add Project page:
 
 ![](https://bowfolios.github.io/images/add-project-page.png)
 
+## Development History
+
+The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+
+* Development consists of a sequence of Milestones.
+* Each Milestone is specified as a set of tasks.
+* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+* Tasks should typically consist of work that can be completed in 2-4 days.
+* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
+* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of BowFolios.
+
+### Milestone 1: Mockup development
+
+The goal of Milestone 1 is to create a set of HTML pages providing a mockup of the pages in the system. The end goal is to have the following pages:
+
+### Landing Page
+![](images/landing.png)
+
+### Home Page
+![](images/home.png)
+
+### Profile Page
+![](images/profile.png)
+
+### Notes Page
+![](images/notes.png)
+
+Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://github.com/orgs/rainbow-notes/projects/1):
+
+![](images/ProjectM1.png)
+
 ## Team
-Manoa Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
+Rainbow Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
