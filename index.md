@@ -5,6 +5,7 @@
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Team](#team)
+* [Team Contract](#team-contract)
 
 ## Overview
 
@@ -109,3 +110,6 @@ Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://gi
 
 ## Team
 Rainbow Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
+
+## Team Contract
+![](images/team-contract-image.png)
