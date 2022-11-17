@@ -1,4 +1,4 @@
-# Rainbow Notes
+
 
 ## Table of contents
 
@@ -17,7 +17,7 @@ The goal of Rainbow Notes is to provide students a place where they can meet or 
 
 It will also provide code that implements design concepts including but not limited to the following:
 
-* Two primary collections (Profiles and Courses) as well as two "join" Collections (CoursesTaken and CourseInterests) that implement many-to-many relationships between them.
+* Two primary collections (Profiles and Courses) as well as two "join" Collections (Notes and User) that implement many-to-many relationships between them.
 * Top-level index pages (Profiles and Courses) that show how to manipulate these four collections in various ways.
 * Initialization code to define default Profiles and Courses and relations between them.
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
