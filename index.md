@@ -50,29 +50,6 @@ The Profile Page which prompts the user for a first name, last name, email, Bio,
 The Notes Page will Display the Notes that are associated with each course along with a rating. More stars the better note it is. 
 ![](images/notes.png)
 
-
-### Sign in and sign up
-
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
-
-![](https://bowfolios.github.io/images/signin-page.png)
-
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
-
-![](https://bowfolios.github.io/images/signup-page.png)
-
-### Home page
-
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-
-![](https://bowfolios.github.io/images/home-page.png)
-
-### Add Project page
-
-Once you are logged in, you can define new projects with the Add Project page:
-
-![](https://bowfolios.github.io/images/add-project-page.png)
-
 ## Development History
 
 The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
@@ -87,21 +64,27 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 
 The following sections document the development history of BowFolios.
 
-### Milestone 1: Mockup development
+### Milestone 1: 
 
-The goal of Milestone 1 is to create a set of *React* pages providing a mockup of the pages in the system. The end goal is to have the following pages:
+The goal of Milestone 1 was to create a set of *React* pages that we previously made Mockups for.  We ended up creating more pages than we originally planned. As of November 17, the project is as follows:
 
 ### Landing Page
-![](images/landing.png)
+![](images/homePage.png)
 
-### Home Page
-![](images/home.png)
+### Course Page
+![](images/coursePage.png)
 
 ### Profile Page
-![](images/profile.png)
+![](images/profilePage.png)
 
-### Notes Page
-![](images/notes.png)
+### Add Notes Page
+![](images/AddNotesPage.png)
+
+### Login Page
+![](images/LoginPage.png)
+
+### Log Out Page
+![](images/LogOutPage.png)
 
 Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://github.com/orgs/rainbow-notes/projects/1):
 
