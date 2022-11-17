@@ -1,4 +1,4 @@
-
+## Rainbow Notes
 
 ## Table of contents
 
@@ -27,29 +27,28 @@ It will also provide code that implements design concepts including but not limi
 
 ## User Guide
 
-This section provides a walkthrough of the planned Rainbow Notes user interface and its capabilities. It will be heavily based on the [Bowfolios template](https://bowfolios.github.io) which was provided in the ICS 314 Software Engineering class. Some pages that we will most likely be using include:
+This section provides a walkthrough of the planned Rainbow Notes Mock up user interface and its capabilities. It will be heavily based on the [Bowfolios template](https://bowfolios.github.io) which was provided in the ICS 314 Software Engineering class. Some pages that we will most likely be using include:
 
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](https://bowfolios.github.io/images/landing-page.png)
+![](images/landing.png)
 
-### Index pages (Projects, Profiles, Interests)
+### Course Page 
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+Rainbow Notes course page provides users with a list of courses and an add course option which allows you to add a course to your unique course page. 
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+![](images/home.png)
 
-![](https://bowfolios.github.io/images/profiles-page.png)
+### Profile Page
+The Profile Page which prompts the user for a first name, last name, email, Bio, courses taken and course interersts. The Profile page also allows for editing of a profile.
 
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
+![](images/profile.png)
 
-![](https://bowfolios.github.io/images/projects-page.png)
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](https://bowfolios.github.io/images/interests-page.png)
+### Notes Page
+The Notes Page will Display the Notes that are associated with each course along with a rating. More stars the better note it is. 
+![](images/notes.png)
 
 
 ### Sign in and sign up
