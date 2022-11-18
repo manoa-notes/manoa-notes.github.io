@@ -1,4 +1,10 @@
-#Build settings
-markdown: kramdown
-theme: minima
-#remote_theme: ?
+title: Rainbow Notes
+description: University Wide Note Sharing at the Click of a Button
+google_analytics:
+show_downloads: false
+theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/rainbow-notes/rainbow-notes
+gems:
+  - jekyll-mentions

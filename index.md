@@ -4,11 +4,10 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Team](#team)
+* [Deployment](#deployment)
+* [Development History](#development-history)
 * [Team Contract](#team-contract)
-* [Deployment](http://146.190.34.247/)
-* [M1 Project](#M1)
-* [M2 Project](#M2)
+* [Team](#team)
 
 ## Overview
 
@@ -20,7 +19,7 @@ The goal of Rainbow Notes is to provide students a place where they can meet or 
 
 It will also provide code that implements design concepts including but not limited to the following:
 
-* Two primary collections (Profiles and Courses) as well as two "join" Collections (Notes and User) that implement many-to-many relationships between them.
+* Two primary collections (Profiles and Courses) as well as two "join" Collections (Notes and Forums) that implement many-to-many relationships between them.
 * Top-level index pages (Profiles and Courses) that show how to manipulate these four collections in various ways.
 * Initialization code to define default Profiles and Courses and relations between them.
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
@@ -30,32 +29,57 @@ It will also provide code that implements design concepts including but not limi
 
 ## User Guide
 
-This section provides a walkthrough of the planned Rainbow Notes Mock up user interface and its capabilities. It will be heavily based on the [Bowfolios template](https://bowfolios.github.io) which was provided in the ICS 314 Software Engineering class. Some pages that we will most likely be using include:
+This section provides a walkthrough of the Rainbow Notes user interface and its capabilities.
 
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing.png)
+![](images/landing-1.png)
+![](images/landing-2.png)
 
-### Course Page 
+### Sign In and Sign Up Pages
 
-Rainbow Notes course page provides users with a list of courses and an add course option which allows you to add a course to your unique course page. 
+Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/home.png)
+![](images/sign-in.png)
+
+Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+
+![](images/sign-up.png)
+
+### Courses Page 
+
+The course page provides users with a list of courses and an option to add ones that aren't included. 
+
+![](images/courses.png)
+
+### Add Notes Page
+The add notes page allows users to upload images of their course notes in addition to a title and description.
+
+![](images/add-notes.png)
+
+### Forum Page
+The forum page provides users a place to ask and answer questions. There are several filtering options so users can search by specific features or categories.
+
+![](images/forum.png)
 
 ### Profile Page
-The Profile Page which prompts the user for a first name, last name, email, Bio, courses taken and course interersts. The Profile page also allows for editing of a profile.
+The profile pages prompts the user for a first and last name, email, biography, in addition to their courses taken and course interests. The Profile page also allows for editing of a profile.
 
 ![](images/profile.png)
 
-### Notes Page
-The Notes Page will Display the Notes that are associated with each course along with a rating. More stars the better note it is. 
-![](images/notes.png)
+### Sign Out Page
+The sign out page is what users will see once they log out of their profile.
+
+![](images/sign-out.png)
+
+## Deployment
+Our website was deployed using Digital Ocean and can be found here: [Rainbow Notes](http://146.190.34.247/)
 
 ## Development History
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+The development process for Rainbow Notes conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
 * Development consists of a sequence of Milestones.
 * Each Milestone is specified as a set of tasks.
@@ -65,39 +89,36 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 * When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-The following sections document the development history of BowFolios.
+The following sections document the development history of Rainbow Notes.
 
-### Milestone 1: 
+### Milestone 1
 
-The goal of Milestone 1 was to create a set of *React* pages that we previously made Mockups for.  We ended up creating more pages than we originally planned. As of November 17, the project is as follows:
+The goal of Milestone 1 was to create a set of React page mockups. The pages which have implemented are:
 
-### Landing Page
-![](images/homePage.png)
+* Landing Page
+* Sign In Page
+* Sign Up Page
+* Courses Page
+* Add Notes Page
+* Forum Page
+* Profile Page
+* Sign Out Page
 
-### Course Page
-![](images/coursePage.png)
+Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://github.com/orgs/rainbow-notes/projects/1).
 
-### Profile Page
-![](images/profilePage.png)
+![](images/m1.png)
 
-### Add Notes Page
-![](images/AddNotesPage.png)
+## Milestone 2
+The goal of Milestone 2 is to improve the functionality and design of our application through the use of MongoDB.
 
-### Login Page
-![](images/LoginPage.png)
+Milestone 2 will be managed using [Rainbow Notes GitHub Project Board M2](https://github.com/orgs/rainbow-notes/projects/3).
 
-### Log Out Page
-![](images/LogOutPage.png)
-
-## M1
-Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://github.com/orgs/rainbow-notes/projects/1):
-
-![](images/ProjectM1.png)
-
-## M2
-Milestone 2 was managed using [Rainbow Notes GitHub Project Board M2](https://github.com/orgs/rainbow-notes/projects/3):
-## Team
-Rainbow Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
+![](images/m2.png)
 
 ## Team Contract
-![](images/team-contract-image.png)
+The Team Contract can be accessed [here](https://docs.google.com/document/d/1BYhkQZ8t0XISmMmo7v_vEQqs3v2YHlsyFllaGU7u8lg/edit?usp=sharing).
+
+![](images/team-contract.png)
+
+## Team
+Rainbow Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
