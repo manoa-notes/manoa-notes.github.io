@@ -6,6 +6,9 @@
 * [User Guide](#user-guide)
 * [Team](#team)
 * [Team Contract](#team-contract)
+* [Deployment](http://146.190.34.247/)
+* [M1 Project](#M1)
+* [M2 Project](#M2)
 
 ## Overview
 
@@ -86,10 +89,13 @@ The goal of Milestone 1 was to create a set of *React* pages that we previously 
 ### Log Out Page
 ![](images/LogOutPage.png)
 
+## M1
 Milestone 1 was managed using [Rainbow Notes GitHub Project Board M1](https://github.com/orgs/rainbow-notes/projects/1):
 
 ![](images/ProjectM1.png)
 
+## M2
+Milestone 2 was managed using [Rainbow Notes GitHub Project Board M2](https://github.com/orgs/rainbow-notes/projects/3):
 ## Team
 Rainbow Notes is designed, implemented, and maintained by [Alex Bozyck](https://abozb01.github.io/), [Marc Ivan Manalac](https://marcivanmanalac.github.io/), [Linda Nguyen](https://lindanguyen25.github.io), [AJ Patalinghog](https://aj-patalinghog.github.io), and [Joshua Aaron Subia](https://josh-subia.github.io/).
 
