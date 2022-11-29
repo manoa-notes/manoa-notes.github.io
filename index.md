@@ -4,6 +4,7 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
+* [Install](#install)
 * [Deployment](#deployment)
 * [Development History](#development-history)
 * [Team Contract](#team-contract)
@@ -30,6 +31,13 @@ It will also provide code that implements design concepts including but not limi
 ## User Guide
 
 This section provides a walkthrough of the Rainbow Notes user interface and its capabilities.
+
+### Install
+* Download the repository
+* cd into /app directory
+* npm install meteor
+* npm install --save react-rating
+* meteor npm run start
 
 ### Landing Page
 
