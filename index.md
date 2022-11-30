@@ -1,13 +1,12 @@
 ## Rainbow Notes
 
-![ci-badge](https://github.com/rainbow-notes/rainbow-notes/workflows/ci-rainbow-notes/badge.svg)
-
 ## Table of contents
 
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
+* [Continuous Integration](#continuous-integration)
 * [Development History](#development-history)
 * [Team Contract](#team-contract)
 * [Team](#team)
