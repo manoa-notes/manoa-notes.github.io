@@ -1,5 +1,7 @@
 ## Rainbow Notes
 
+![ci-badge](https://github.com/rainbow-notes/rainbow-notes/workflows/ci-rainbow-notes/badge.svg)
+
 ## Table of contents
 
 * [Overview](#overview)
